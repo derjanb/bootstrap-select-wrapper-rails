@@ -2,7 +2,7 @@
 
 This gem is a simple wrapper for the bootstrap-select plugin.
 It is bundled as a gem to be able to include this 3rd party asset into the asset pipeline, without having to locally import the actual CSS and JavaScript into your project.
-Please see http://silviomoreto.github.io/bootstrap-select/ for the original plugin.
+Please see http://silviomoreto.github.io/bootstrap-select/ for the original plugin and http://derjanb.github.io/bootstrap-select/ for the version used at this fork.
 
 # [![Gem Version](https://badge.fury.io/rb/bootstrap-select-wrapper-rails.svg)](http://badge.fury.io/rb/bootstrap-select-wrapper-rails)
 

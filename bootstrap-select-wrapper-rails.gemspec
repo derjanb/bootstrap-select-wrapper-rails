@@ -6,8 +6,8 @@ require 'bootstrap/select/wrapper/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "bootstrap-select-wrapper-rails"
   spec.version       = Bootstrap::Select::Wrapper::Rails::VERSION
-  spec.authors       = ["Christian Dobert"]
-  spec.email         = ["chr.dobert@gmail.com"]
+  spec.authors       = ["Christian Dobert", "Jan Biniok"]
+  spec.email         = ["chr.dobert@gmail.com", "jan@biniok.net"]
   spec.summary       = %q{A simple wrapper around the bootstrap-select plugin}
   spec.description   = %q{A wrapper around the bootstrap-select plugin. See: http://silviomoreto.github.io/bootstrap-select/}
   spec.homepage      = "https://github.com/dondope/bootstrap-select-wrapper-rails"
