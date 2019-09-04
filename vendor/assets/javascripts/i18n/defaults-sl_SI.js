@@ -1,7 +1,7 @@
 /*!
- * Bootstrap-select v1.12.1 (http://silviomoreto.github.io/bootstrap-select)
+ * Bootstrap-select v1.12.101 (http://derjanb.github.io/bootstrap-select)
  *
- * Copyright 2013-2016 bootstrap-select
+ * Copyright 2013-2019 bootstrap-select
  * Licensed under MIT (https://github.com/silviomoreto/bootstrap-select/blob/master/LICENSE)
  */
 
@@ -22,7 +22,7 @@
 }(this, function (jQuery) {
 
 (function ($) {
-  $.fn.selectpicker.defaults = {
+  ($.fn.selectpicker.locales = $.fn.selectpicker.locales || {})['sl_SI'] = {
     noneSelectedText: 'Nič izbranega',
     noneResultsText: 'Ni zadetkov za {0}',
     countSelectedText: function (numSelected, numTotal) {

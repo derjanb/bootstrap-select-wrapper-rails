@@ -1,7 +1,7 @@
 /*!
- * Bootstrap-select v1.12.1 (http://silviomoreto.github.io/bootstrap-select)
+ * Bootstrap-select v1.12.101 (http://derjanb.github.io/bootstrap-select)
  *
- * Copyright 2013-2016 bootstrap-select
+ * Copyright 2013-2019 bootstrap-select
  * Licensed under MIT (https://github.com/silviomoreto/bootstrap-select/blob/master/LICENSE)
  */
 
@@ -22,7 +22,7 @@
 }(this, function (jQuery) {
 
 (function ($) {
-  $.fn.selectpicker.defaults = {
+  ($.fn.selectpicker.locales = $.fn.selectpicker.locales || {})['zh_TW'] = {
     noneSelectedText: '沒有選取任何項目',
     noneResultsText: '沒有找到符合的結果',
     countSelectedText: '已經選取{0}個項目',

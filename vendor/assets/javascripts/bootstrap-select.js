@@ -1,7 +1,7 @@
 /*!
- * Bootstrap-select v1.12.100 (http://derjanb.github.io/bootstrap-select)
+ * Bootstrap-select v1.12.101 (http://derjanb.github.io/bootstrap-select)
  *
- * Copyright 2013-2016 bootstrap-select
+ * Copyright 2013-2019 bootstrap-select
  * Licensed under MIT (https://github.com/silviomoreto/bootstrap-select/blob/master/LICENSE)
  */
 
@@ -1863,8 +1863,10 @@
             options = typeof _option == 'object' && _option;
 
         if (!data) {
-          var config = $.extend({}, Selectpicker.DEFAULTS, $.fn.selectpicker.defaults || {}, $this.data(), options);
+          var locale = $.fn.selectpicker.locales && $this.data().locale ? $.fn.selectpicker.locales[$this.data().locale] : null;
+          var config = $.extend({}, Selectpicker.DEFAULTS, $.fn.selectpicker.defaults || locale || {}, $this.data(), options);
           config.template = $.extend({}, Selectpicker.DEFAULTS.template, ($.fn.selectpicker.defaults ? $.fn.selectpicker.defaults.template : {}), $this.data().template, options.template);
+
           $this.data('selectpicker', (data = new Selectpicker(this, config)));
         } else if (options) {
           for (var i in options) {

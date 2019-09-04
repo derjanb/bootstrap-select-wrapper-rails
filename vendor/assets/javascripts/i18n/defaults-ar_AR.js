@@ -1,7 +1,7 @@
 /*!
- * Bootstrap-select v1.12.1 (http://silviomoreto.github.io/bootstrap-select)
+ * Bootstrap-select v1.12.101 (http://derjanb.github.io/bootstrap-select)
  *
- * Copyright 2013-2016 bootstrap-select
+ * Copyright 2013-2019 bootstrap-select
  * Licensed under MIT (https://github.com/silviomoreto/bootstrap-select/blob/master/LICENSE)
  */
 
@@ -27,7 +27,7 @@
  * Author: Yasser Lotfy <y_l@alive.com>
  */
 (function ($) {
-  $.fn.selectpicker.defaults = {
+  ($.fn.selectpicker.locales = $.fn.selectpicker.locales || {})['ar_AR'] = {
     noneSelectedText: 'لم يتم إختيار شئ',
     noneResultsText: 'لا توجد نتائج مطابقة لـ {0}',
     countSelectedText: function (numSelected, numTotal) {
